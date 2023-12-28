@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -18,7 +20,7 @@
                 <p>Damar</p>
             </div>
             <div class="right-row">
-                <div class="nav-menu">
+                <div class="nav-menu"data-aos="zoom-out-down"data-aos-duration="3000">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Skill</a></li>
@@ -88,7 +90,7 @@
         </div>
     </div>
 
-    <div class="container-skill">
+    <div class="container-skill"data-aos="zoom-out-down"data-aos-duration="3000">
         <div class="header-skill">
             <p>Skills</p>
             <h1>My Skill</h1>
@@ -152,9 +154,9 @@
                 <img src="WhatsApp Image 2023-12-28 at 08.46.59_1e9af523.jpg" alt="">
             </div>
             <div class="desc-project">
-                <h1>Katsugi</h1>
-                <h2>Zenit</h2>
-                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores nulla nesciunt impedit totam aperiam vitae enim, incidunt porro ullam.</h2>
+                <h1>Sleepy Eyes</h1>
+                <h2>How do sleepy eyes look like?</h2>
+                <h2>Puffy eyelids, under-eye bags, and dark circles under the eyes are the tell-tale signs of tired eyes. You can immediately tell if someone's been crying, exhausted, or up all night by looking at their eyes. However, lack of sleep and fatigue aren't the only reasons why your eyes may look weary.</h2>
             </div>
             <button class="read-more">Read More</button>
         </div>
@@ -189,6 +191,11 @@
     </div>
     
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
